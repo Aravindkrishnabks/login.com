@@ -1,0 +1,41 @@
+body{
+background-image:url("t.jpeg");
+background-repeat:repeat;
+}
+
+h1{
+	font:italic;
+	color:red;
+	text-align:center;
+	border:green solid;
+	margin:30px 300px;
+	padding:10px;
+	border-width:10px;
+}
+form{
+	color:yellow;
+	font-size:20px;
+	border:solid;
+	text-align:right;
+	padding:50px;
+	margin:80px 450px;
+	border-width:10px;
+	background-image:linear-gradient(red,blue);
+}
+form input{
+	height:10px;
+	padding:10px;
+	margin:10px;
+	background-color:lightblue;
+	color:black;
+	font-size:15px;
+}
+form:hover{
+	color:white;
+	border:solid green 10px;
+	background-image:linear-gradient(blue,red);
+}
+form input:hover{
+		background-color:yellow;
+		color:red;
+}
